@@ -3,6 +3,7 @@ package com.capgemini;
 public class Calculator {
 
 	public int add(int a, int b) {
+		System.out.println("On the branch master");
 		return a + b;
 	}
 
