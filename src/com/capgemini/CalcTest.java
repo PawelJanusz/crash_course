@@ -38,9 +38,10 @@ public class CalcTest {
 		//given
 		//when
 		Calculator calculator = new Calculator();
-		double actual = 0;
+		double example = 0;
+
 		//then
-		assertThrows(IllegalArgumentException.class, () -> calculator.divide(8, actual));
+		assertThrows(IllegalArgumentException.class, () -> calculator.divide(8, example));
 	}
 	
 }
